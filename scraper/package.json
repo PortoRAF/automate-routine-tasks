@@ -1,0 +1,16 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "This app will scrape daily a public government website searching for new publications of open public biddings, store the data in a database and send an e-mail everyday when a new publication is found.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PortoRAF/automate-routine-tasks/tree/master/scraper"
+  }
+}
