@@ -15,7 +15,9 @@ function getHtml (url, page) {
 
       /* Load HTML info into cheerio instance */
       const $ = cheerio.load(response.data);
-      const numOfElem = 3;//$(findClass).length;
+
+      /* Store number of elements in page */
+      const numOfElem = $(findClass).length;
       var displayed = 0;
 
       /* For each element on specified class */
